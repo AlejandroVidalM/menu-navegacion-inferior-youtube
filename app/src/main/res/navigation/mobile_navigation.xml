@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.ejemplonavegacioninferior.FragmentHome"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_trending"
+        android:name="com.example.ejemplonavegacioninferior.FragmentTrending"
+        android:label="@string/title_trending"
+        tools:layout="@layout/fragment_trending" />
+    <fragment
+        android:id="@+id/navigation_subscription"
+        android:name="com.example.ejemplonavegacioninferior.FragmentSubscription"
+        android:label="@string/title_subscription"
+        tools:layout="@layout/fragment_subscription" />
+    <fragment
+        android:id="@+id/navigation_inbox"
+        android:name="com.example.ejemplonavegacioninferior.FragmentInbox"
+        android:label="@string/title_inbox"
+        tools:layout="@layout/fragment_inbox" />
+    <fragment
+        android:id="@+id/navigation_library"
+        android:name="com.example.ejemplonavegacioninferior.FragmentLibrary"
+        android:label="@string/title_library"
+        tools:layout="@layout/fragment_library" />
+</navigation>
